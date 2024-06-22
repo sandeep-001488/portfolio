@@ -15,7 +15,9 @@
   background-color: rgb(4, 6, 6);
   .scrolling-text {
     overflow: hidden; 
+    width: 100%;
     white-space: nowrap; 
+    color: white;
     animation: scroll-right 10s linear infinite;
   }
   
