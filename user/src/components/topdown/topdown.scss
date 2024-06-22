@@ -13,9 +13,19 @@
   position: fixed;
   height:80px;
   background-color: rgb(4, 6, 6);
-  marquee{
-color: white;
-font-size: 30px;
+  .scrolling-text {
+    overflow: hidden; 
+    white-space: nowrap; 
+    animation: scroll-right 10s linear infinite;
+  }
+  
+  @keyframes scroll-right {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }
 }
 

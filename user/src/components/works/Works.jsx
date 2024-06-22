@@ -25,10 +25,12 @@ const Works = () => {
       }
     };
 
-    slideRef.current.addEventListener('transitionend', handleTransitionEnd);
+    const refCurrent = slideRef.current; // Store ref value in a variable
+
+    refCurrent.addEventListener('transitionend', handleTransitionEnd);
 
     return () => {
-      slideRef.current.removeEventListener('transitionend', handleTransitionEnd);
+      refCurrent.removeEventListener('transitionend', handleTransitionEnd); // Use variable in cleanup
     };
   }, [currentSlide, totalSlides]);
 
@@ -40,8 +42,6 @@ const Works = () => {
       setCurrentSlide((prevSlide) => prevSlide + 1);
     }
   };
-
-  
 
   return (
     <div className="works" id="works">

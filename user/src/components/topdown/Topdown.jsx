@@ -4,7 +4,9 @@ import './topdown.scss';
 const Topdown = () => {
   return (
     <footer className="topdown">
-      <marquee behavior="scroll" direction="right" scrollamount="10">You Are Most Welcome Here</marquee>
+      <div className="scrolling-text">
+        You Are Most Welcome Here
+      </div>
     </footer>
   );
 };
