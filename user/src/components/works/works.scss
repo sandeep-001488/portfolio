@@ -1,0 +1,180 @@
+
+@import '../../global.scss';
+
+.works {
+  background-color: rgb(148, 30, 54);
+  background: linear-gradient(0.8turn,blue,red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  @include mobile {
+    overflow: hidden;
+  }
+
+  .arrow {
+    height: 50px;
+    position: absolute;
+
+    @include mobile {
+      margin:0px;
+
+    }
+
+    &.left {
+      left: 100px;
+      transform: rotate(180deg);
+      cursor: pointer;
+      @include mobile{
+        transform: rotate(-90deg);
+        margin-top: -300px;
+        margin-left: 65px;
+      }
+    }
+
+    &.right {
+      right: 100px;
+      cursor: pointer;
+      @include mobile{
+        transform: rotate(90deg);
+        margin-top: 300px;
+        margin-right:45px;
+      }
+    }
+  }
+
+  .slider {
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease;
+
+    @include mobile {
+      height: 100vh;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .item {
+        width: 700px;
+        height: 92%;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @include mobile {
+          width: 90%;
+          height: 155px;
+          margin: 5px 0;
+        }
+
+        .left {
+          flex: 4;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .left-container {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #e3e3e3;
+            background: linear-gradient(250deg,gray,white,gray);
+
+            .img-container {
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              background-color: #25154a;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-left: 10px;
+
+              @include mobile {
+                margin-left: 30px;
+              }
+
+              img {
+                width: 25px;
+              }
+            }
+
+            h2 {
+              font-size: 20px;
+              margin: 10px 0;
+              color: black;
+              margin-left: 10px;
+
+              @include mobile {
+                font-size: 10px;
+                margin-left: 20px;
+              }
+            }
+
+            p {
+              font-size: 13px;
+              margin: 10px 0;
+              color: black;
+              margin-left: 10px;
+
+              @include mobile {
+                font-size: 8px;
+                font-weight: bold;
+              }
+            }
+
+            span {
+              font-size: 12px;
+              font-weight: 600;
+              text-decoration: underline;
+              cursor: pointer;
+              color: black;
+              margin: 10px 0;
+              margin-left: 10px;
+
+              @include mobile {
+                margin-left: 30px;
+              }
+
+              a {
+                text-decoration: underline;
+                color: inherit;
+              }
+            }
+          }
+        }
+
+        .right {
+          flex: 8;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #fff;
+          background: linear-gradient(150deg,rgb(146, 183, 146),rgb(235, 235, 170));
+          overflow: hidden;
+
+          img {
+            height: 100%;
+            transform: rotate(-10deg);
+          }
+         
+        }
+      }
+    }
+  }
+}
