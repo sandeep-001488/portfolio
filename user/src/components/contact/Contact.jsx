@@ -39,7 +39,8 @@ const Contact = () => {
 
     setMessage(false);
     try {
-      await axios.post("http://localhost:3000/contact", {
+      // await axios.post("http://localhost:3000/contact", {
+        await axios.post("https://portfolio-zfj8.onrender.com/contact", {
         username: contact.username,
         email: contact.email,
         message: contact.message,
