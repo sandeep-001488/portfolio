@@ -19,7 +19,7 @@ const Works = () => {
         slideRef.current.style.transform = `translateX(-${totalSlides * 100}vw)`;
       } else if (currentSlide === totalSlides + 1) {
         // Jump to the first slide (no transition)
-        setCurrentSlide(1);
+        setCurrentSlide(1); 
         slideRef.current.style.transition = 'none';
         slideRef.current.style.transform = `translateX(-100vw)`;
       }
@@ -60,7 +60,11 @@ const Works = () => {
                   </div>
                   <h2>{dataItem.title}</h2>
                   <p>{dataItem.description}</p>
-                  <span><a href={dataItem.link}>Project Link</a></span>
+                  <span>
+                    <a href={dataItem.link} target="_blank" rel="noreferrer">
+                      Project Link
+                    </a>
+                  </span>
                 </div>
               </div>
               <div className="right">

@@ -133,57 +133,87 @@ const dataSciencePortfolio=[
   },
 ]
 
-const dataForWorks=[
+const dataForWorks = [
   {
-    id:"1",
-    icon:"https://publishthispost.com/wp-content/uploads/2021/05/Data-Scientist.jpg",
-    title:"My First Project",
-    description:"All it was about my expectations and reality for the college which all may have definitely thought about..",
-    img:"./assets/expectations.jpg",
-    link:"https://sandeep-001488.github.io/hoouse-of-geeks-first-project-/"
+    id: "1",
+    icon: "https://publishthispost.com/wp-content/uploads/2021/05/Data-Scientist.jpg",
+    title: "MedicCare",
+    description:
+      "Book appointments with your favorite doctors, giving you quick and easy access to trusted healthcare at your fingertips!",
+    img: "./assets/doctor-appointment.jpg",
+    link: "https://mediccare-aquickmedappointment.vercel.app/",
   },
   {
-    id:"2",
-    icon:"https://publishthispost.com/wp-content/uploads/2021/05/Data-Scientist.jpg",
-    title:"Travel & Tourism",
-    description:`It is work from the co-contributors that we have participated in 𝙎𝙢𝙖𝙧𝙩 𝙄𝙣𝙙𝙞𝙖 𝙃𝙖𝙘𝙠𝙝𝙖𝙩𝙝𝙤𝙣 and made this project.Although it's not complete yet,my work lies in About section`,
-    img:"./assets/travel.jpg",
-    link:"https://sandeep-001488.github.io/Travel-Tourism/"
+    id: "2",
+    icon: "https://publishthispost.com/wp-content/uploads/2021/05/Data-Scientist.jpg",
+    title: "SocialZone-Connect the world",
+    description: "Connecting people around through social media",
+    img: "./assets/social_media.jpg",
+    link: "https://join-sandeep-socialzone.vercel.app/",
   },
   {
-    id:"3",
-    icon:"./assets/mobile.png",
-    title:"Guess the Number",
-    description:"It's all to check how fast ur mind works. Here u have 6 attempts to guess the number...",
-    img:"./assets/guess.png",
-    link:"https://sandeep-001488.github.io/Number-guessing-game/"
-
+    id: "3",
+    icon: "https://publishthispost.com/wp-content/uploads/2021/05/Data-Scientist.jpg",
+    title: "BookyTore-A Digital Library",
+    description:
+      "Our platform makes it effortless to browse and purchase books from your favorite authors, giving you quick and easy access to a world of stories and knowledge  ",
+    img: "./assets/library.jpg",
+    link: "https://bookytore-alibraryy-by-sandeep.netlify.app/",
   },
   {
-    id:"3",
-    icon:"./assets/ro_pa__sc.png",
-    title:"Rock-paper-scissor",
-    description:"It is the game u all perhaps know about.U hv 11 attempts to  defeat the computer..",
-    img:"./assets/ro_pa__sc.png",
-    link:"https://sandeep-001488.github.io/Rock_paper_Scissor/"
+    id: "4",
+    icon: "https://publishthispost.com/wp-content/uploads/2021/05/Data-Scientist.jpg",
+    title: "My First Project",
+    description:
+      "All it was about my expectations and reality for the college which all may have definitely thought about..",
+    img: "./assets/expectations.jpg",
+    link: "https://sandeep-001488.github.io/hoouse-of-geeks-first-project-/",
   },
   {
-    id:"4",
-    icon:"./assets/bmi.jpg",
-    title:"How much is your BMI ?",
-    description:"In this arena of eating proceesed food ,it is mcuh needed to check ur BMI to check where ur health category lies ..",
-    img:"./assets/bmi.jpg",
-    link:"https://sandeep-001488.github.io/BMI_calc/"
+    id: "4",
+    icon: "https://publishthispost.com/wp-content/uploads/2021/05/Data-Scientist.jpg",
+    title: "Travel & Tourism",
+    description: `It is work from the co-contributors that we have participated in 𝙎𝙢𝙖𝙧𝙩 𝙄𝙣𝙙𝙞𝙖 𝙃𝙖𝙘𝙠𝙝𝙖𝙩𝙝𝙤𝙣 and made this project.Although it's not complete yet,my work lies in About section`,
+    img: "./assets/travel.jpg",
+    link: "https://sandeep-001488.github.io/Travel-Tourism/",
   },
   {
-    id:"5",
-    icon:"./assets/tic_tac_toc.jpg",
-    title:"May you lose ?",
-    description:"This is the tic-tac-toc game which we mostly play in our childhood",
-    img:"./assets/tic_tac_toc.jpg",
-    link:"https://sandeep-001488.github.io/tic_tac_toc_game/"
+    id: "6",
+    icon: "./assets/guess.png",
+    title: "Guess the Number",
+    description:
+      "It's all to check how fast ur mind works. Here u have 6 attempts to guess the number...",
+    img: "./assets/guess.png",
+    link: "https://sandeep-001488.github.io/Number-guessing-game/",
   },
-]
+  {
+    id: "7",
+    icon: "./assets/ro_pa__sc.png",
+    title: "Rock-paper-scissor",
+    description:
+      "It is the game u all perhaps know about.U hv 11 attempts to  defeat the computer..",
+    img: "./assets/ro_pa__sc.png",
+    link: "https://sandeep-001488.github.io/Rock_paper_Scissor/",
+  },
+  {
+    id: "8",
+    icon: "./assets/bmi.jpg",
+    title: "How much is your BMI ?",
+    description:
+      "In this arena of eating proceesed food ,it is mcuh needed to check ur BMI to check where ur health category lies ..",
+    img: "./assets/bmi.jpg",
+    link: "https://sandeep-001488.github.io/BMI_calc/",
+  },
+  {
+    id: "9",
+    icon: "./assets/tic_tac_toc.jpg",
+    title: "May you lose ?",
+    description:
+      "This is the tic-tac-toc game which we mostly play in our childhood",
+    img: "./assets/tic_tac_toc.jpg",
+    link: "https://sandeep-001488.github.io/tic_tac_toc_game/",
+  },
+];
 
 const dataForTestimonials=[
   {
