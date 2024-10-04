@@ -62,7 +62,7 @@ const Works = () => {
                   <p>{dataItem.description}</p>
                   <span>
                     <a href={dataItem.link} target="_blank" rel="noreferrer">
-                      Project Link
+                      𝓟𝓻𝓸𝓳𝓮𝓬𝓽 𝓛𝓲𝓷𝓴
                     </a>
                   </span>
                 </div>
